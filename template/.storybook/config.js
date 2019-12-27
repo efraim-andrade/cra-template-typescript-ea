@@ -6,7 +6,7 @@ import { withPropsTable } from 'storybook-addon-react-docgen';
 
 import GlobalStyle from '../src/theme/global';
 
-configure(require.context('../src', true, /\.stories\.js$/), module);
+configure(require.context('../src', true, /\.stories\.tsx$/), module);
 
 addDecorator(withKnobs);
 addDecorator(withPropsTable);
