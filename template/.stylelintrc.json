@@ -119,6 +119,6 @@
     ]
   },
   "extends": ["stylelint-config-idiomatic-order"],
-  "processors": ["stylelint-processor-styled-components"],
+  "processors": [],
   "syntax": "scss"
 }
