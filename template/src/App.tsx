@@ -1,9 +1,10 @@
 import React from 'react';
+import { hot } from 'react-hot-loader'
 
 import Routes from '~/routes';
 import GlobalStyles from '~/theme/global';
 
-export default function App() {
+function App() {
   return (
     <div>
       <GlobalStyles />
@@ -12,3 +13,6 @@ export default function App() {
     </div>
   );
 }
+
+export default hot(module)(App)
+

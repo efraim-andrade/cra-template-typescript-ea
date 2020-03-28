@@ -40,7 +40,11 @@
     "eslint-plugin-react": "latest",
     "eslint-plugin-react-hooks": "latest",
     "storybook-addon-react-docgen": "latest",
-    "prettier": "latest"
+    "prettier": "latest",
+    "craco-plugin-react-hot-reload": "latest",
+    "react-hot-loader": "latest",
+    "@hot-loader/react-dom": "latest",
+    "@types/node": "latest"
   },
   "scripts": {
     "start": "craco start",
