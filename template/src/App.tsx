@@ -1,18 +1,19 @@
 import React from 'react';
-import { hot } from 'react-hot-loader'
+import { hot } from 'react-hot-loader';
+import { ThemeProvider } from 'styled-components';
 
 import Routes from '~/routes';
+import light from '~/theme/light';
 import GlobalStyles from '~/theme/global';
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={light}>
       <GlobalStyles />
 
       <Routes />
-    </div>
+    </ThemeProvider>
   );
 }
 
-export default hot(module)(App)
-
+export default hot(module)(App);
