@@ -47,7 +47,8 @@
     "@types/node": "latest",
     "stylelint": "latest",
     "stylelint-config-idiomatic-order": "latest",
-    "stylelint-prettier": "latest"
+    "stylelint-prettier": "latest",
+    "framer-motion": "latest"
   },
   "scripts": {
     "start": "craco start",
